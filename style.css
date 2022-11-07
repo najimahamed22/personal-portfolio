@@ -5,17 +5,22 @@ body {
 
 #h1id {
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
     color: white;
+    margin-top: 1%;
+    margin-bottom: 1ch;
+
 }
 
 .personal {
     color: lightskyblue;
-    font-size: 2em;
+    font-size: 45px;
     text-align: center;
+    padding-top: 1px;
+    margin-top: 1ch;
 }
 
-section {
+.falxible-continer {
     display: flex;
     margin-bottom: 20px;
 }
@@ -24,6 +29,8 @@ section {
     width: 50%;
     padding-left: 5%;
     padding-top: 2%;
+    text-align: justify;
+    padding-right: 5%;
 }
 
 .half-width img {
@@ -41,7 +48,7 @@ section {
 
 .banner {
     background: url(images/banner.png);
-    background-repeat: no-repeat;
+    background-size: 105%;
 }
 
 .pclour {
@@ -50,9 +57,9 @@ section {
 }
 
 .h2clour {
-    color: beige;
+    color: rgb(185, 222, 20);
     text-align: left;
-    font-size: 30px;
+    font-size: 28px;
 }
 
 .link {
@@ -82,23 +89,42 @@ section {
     background-image: url(images/banner2.png);
     background-repeat: no-repeat;
 
-
-
 }
 
-.hi {
-    color: white;
-    text-align: justify;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 3em;
-    font-weight: bolder;
-    margin-top: 10px;
-}
 
 .hlw {
     color: yellow;
-    text-align: justify;
+    text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 3em;
     font-weight: bolder;
+    margin-top: 2px;
+}
+
+.experience-item {
+    width: 50%;
+    padding-left: 5%;
+    padding-top: 2%;
+    text-align: justify;
+    padding-right: 5%;
+    box-shadow: 10px 10px 40px rgb(93, 0, 255);
+    border-radius: 10px;
+
+}
+
+#experience-id {
+    text-align: center;
+    font-size: 3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#font-h1 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.experience {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-size: 5%;
 }
