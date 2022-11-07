@@ -128,3 +128,8 @@ body {
     background-repeat: no-repeat;
     background-size: 5%;
 }
+
+footer {
+    text-align: center;
+    font-size: 2em;
+}
